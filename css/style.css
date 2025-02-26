@@ -10,6 +10,7 @@
     grid-template-areas: 
         "menu busca busca busca"
         "menu conteudo conteudo conteudo"
+        "menu conteudo conteudo conteudo"
         "menu grafico grafico mapa"
         "menu tabela tabela tabela"
         "menu rodape rodape rodape";
@@ -46,6 +47,33 @@
 }
 
 .botao:hover {
+    background-color: #0056b3;
+}
+
+.conteudo-header {
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.botaoe {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoe img {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.botaoe:hover {
     background-color: #0056b3;
 }
 
@@ -128,11 +156,6 @@
     gap: 20px;
     padding: 20px;
     border-radius: 8px;
-}
-
-.conteudo-header {
-    grid-row: 1;
-    text-align: center;
 }
 
 .conteudo-body {
