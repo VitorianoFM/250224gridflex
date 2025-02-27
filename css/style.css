@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --info-color: blueviolet;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -146,7 +153,7 @@
 }
 
 .highlight {
-    color: blueviolet;
+    color: var(--info-color);
 }
 
 .busca-esquerda {
