@@ -122,16 +122,27 @@
 }
 
 .busca-direita input {
-    flex-grow: 1;
     padding: 5px;
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
 }
 
 .busca-direita img {
     width: 16px;
     height: 16px;
+}
+
+.lupa {
+    width: 15px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.lupa:hover {
+    width: 200px;
 }
 
 .highlight {
@@ -180,6 +191,19 @@
 .mapa {
     background-color: #fff;
     grid-area: mapa;
+
+}
+
+.mapaiframe {
+    transition-property: width height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.mapaiframe:hover {
+    width: 500px;
+    height: 500px;
 }
 
 .tabela {
